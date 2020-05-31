@@ -1,0 +1,155 @@
+.trokot_product .official{
+    color: #000;
+}
+.circle_form .right-form{
+    float: right;
+    padding-top: 40px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.6);
+	padding: 40px 0px 40px 0px;
+}
+.circle_form form{
+    float: none;
+    padding-top: 0px;
+}
+.circle_form h4{
+    color: #fff;
+    font: 29px/30px 'pf_dindisplay_prothin';
+    margin: 0 auto;
+    padding-bottom: 26px;
+    text-transform: uppercase;
+    width: 250px;
+    text-align: center;
+}
+.demand_panel .pos{
+    margin-top: -130px;
+    position: absolute;
+    width: 100%;
+}
+.demand_panel .pos > p{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font: 17px/20px pf_dindisplay_prolight;
+    width: 720px;
+}
+
+.ajax-layout{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1200;
+    display: none;
+    cursor: pointer;
+}
+.request-form,.request-form label.error,.classic-form label.error,.list-form .form-fields label.error,.clearfix label.error{
+	display: none;
+}
+.request-form div.error,.classic-form div.error{
+    margin-left: 50px;
+}
+#request-form-161 div.error{
+    margin-left: 100px;
+}
+#request3 div.error{
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.button{
+    display:inline-block;
+    width:294px;
+    height:55px;
+    background: #ffda00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffda00 0%, #ff9e00 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffda00), color-stop(100%,#ff9e00)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffda00 0%,#ff9e00 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffda00 0%,#ff9e00 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffda00 0%,#ff9e00 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffda00 0%,#ff9e00 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffda00', endColorstr='#ff9e00',GradientType=0 ); /* IE6-9 */
+    border:0;
+    padding:0;
+    border-bottom:4px solid #864A00;
+    border-radius:7px;
+    font:24px/55px 'pf_dindisplay_prolight';
+    color:#000;
+    letter-spacing:1px;
+    cursor:pointer;
+    text-decoration:none;
+}
+.button:hover{
+    background: #ff9e00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff9e00 0%, #ffda00 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9e00), color-stop(100%,#ffda00)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff9e00 0%,#ffda00 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff9e00 0%,#ffda00 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff9e00 0%,#ffda00 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff9e00 0%,#ffda00 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9e00', endColorstr='#ffda00',GradientType=0 ); /* IE6-9 */
+}
+.button:active, .button:focus{
+    background:#FFCA00;
+    border-color:#A75C00;
+}
+.request-form input[type="text"], .request-form input[type="tel"]{
+	border:1px solid #ccc;
+	transition:none;
+}
+.request-form input[type="text"]:focus:focus, .request-form input[type="tel"]:focus:focus{
+	border-color:#C3C3C3;
+	box-shadow:0 0 6px rgba(0,0,0,0.15);
+}
+.request-form .button{
+	text-transform:uppercase;
+	text-shadow:0 1px 0 rgba(255,255,255,0.2);
+	width:298px;
+	position:relative;
+	top:8px;
+}
+.request-form{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    width: 360px;
+    
+    top:50%;
+    left: 50%;
+    position: fixed;
+    z-index: 1201;
+}
+.nonstyle { background: none !important; box-shadow:none !important;}
+.request-form .ajax-form-block{
+    padding: 22px 0 30px;    
+}
+.request-form h2{
+    font: 30px/30px 'pf_dindisplay_prothin';
+    padding-bottom: 15px;
+    text-transform: uppercase;    
+}
+#request3{
+    width: 845px;
+    margin: auto;
+}
+#request3 fieldset {
+    padding: 0px 15px 22px;
+    margin: 0 auto;
+    text-align: center;
+}
+#request3 input[type=text],#request3 input[type=tel]{
+    width: 345px;
+    margin: 0px;
+}
+#request3 .center {
+    float: none;
+    clear: both;
+}
+#request3 .center2{
+    float: none;
+    clear: both;
+    padding: 0px 15px 22px;
+	text-align: center;
+}

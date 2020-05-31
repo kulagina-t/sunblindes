@@ -1,0 +1,14 @@
+#cboxClose{display:none;}
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.topForm {
+	width: 1034px;
+	margin: 0 auto;
+	clear: both;
+	position: relative;
+	height: 500px;
+}
+       
